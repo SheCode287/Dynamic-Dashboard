@@ -1,5 +1,5 @@
 import SideCard from "./SideCard";
-import logo from "../../../src/assets/Tesla.svg"
+import logo from "../../assets/Tesla.svg"
 import { MdOutlineTrendingUp } from "react-icons/md";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { MdPeople } from "react-icons/md";
