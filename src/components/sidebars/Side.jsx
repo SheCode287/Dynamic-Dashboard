@@ -1,11 +1,13 @@
 import SideCard from "./SideCard";
-import logo from "../../assets/Tesla.svg"
+// import logo from "../../assets/Tesla.svg"
 import { MdOutlineTrendingUp } from "react-icons/md";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { MdPeople } from "react-icons/md";
 import { PiListChecksFill } from "react-icons/pi";
 import { IoBulb } from "react-icons/io5";
 import { IoSettingsSharp } from "react-icons/io5";
+import TeslaIcon from "@/assets/Tesla.svg";
+
 
 
 function Side() {
@@ -14,7 +16,7 @@ function Side() {
             <aside id="sidebar-multi-level-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
                 <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 ">
                     <div className="pt-4 mt-4 mb-4 space-y-2 font-medium  border-gray-600 dark:border-gray-700">
-                        <img src={logo} alt="" />
+                        <img src={TeslaIcon} alt="icon" />
                     </div>
                     <ul className="space-y-5 font-medium">
                         <SideCard navigate={'#'} icon={<MdOutlineTrendingUp style={{fontSize:'1.4rem'}}/>} title={'Reports'} />
