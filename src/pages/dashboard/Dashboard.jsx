@@ -78,8 +78,10 @@ function Dashboard() {
           <div>
             <select className="border-none" name="dropdown" >
               <option value="">{item.header.b}</option>
-              <option value="vv">vv</option>
-              <option value="vv">vv</option>
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <option value="Mar">Mar</option>
+
             </select>
           </div>
 
