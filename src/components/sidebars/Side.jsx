@@ -6,7 +6,8 @@ import { MdPeople } from "react-icons/md";
 import { PiListChecksFill } from "react-icons/pi";
 import { IoBulb } from "react-icons/io5";
 import { IoSettingsSharp } from "react-icons/io5";
-import TeslaIcon from "@/assets/Tesla.svg";
+import TeslaIcon from "../../assets/Tesla.svg";
+
 
 
 
